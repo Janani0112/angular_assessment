@@ -1,6 +1,26 @@
-
-
-<h6>Points of Player 1 : {{counter}}</h6>
-<h6>Dice Value : {{ran}} </h6>
+<h4>Player 1 Points : {{counter}}</h4>
+<h4>Dice Value : {{ran}} </h4>
 <h3>{{message_show}}</h3>
-<button class="color_value" (click)="onPlay()">click</button>
+<button class="color_value" [disabled]="isStop()" (click)="onPlay()">Roll Dice</button>
+
+<!--
+<button (click)="onsubs()">click for sub</button>
+<h3>{{valuegot}}</h3>
+<style type="text/css" media="screen">
+    .outer {background-color:lightgray;}
+    .outer > * {
+      display:inline-block;
+      vertical-align:middle;
+      background-color:lightgreen;
+    }
+    .one {width:80px; height:80px;}
+    .two {width:80px; height:80px;}
+    .three {width:80px; height:100px;}
+    </style>
+    
+    <div class="outer">
+    <div class="one">Some text that will wrap</div>
+    <div class="two">hello</div>
+    <div class="three">world</div>
+    </div>
+-->

@@ -1,4 +1,4 @@
-table  {
+ table  {
     width: 20%;
     border: 1px solid black;
   }
@@ -9,7 +9,7 @@ h2{
 }
 td{
     border: 1px solid black;
-}
+} 
 .centeralign{
     margin-left: auto;
     margin-right: auto;
@@ -41,3 +41,41 @@ td{
     margin-top: 60px;
     margin-right: 60px;  
 }
+
+
+.outer {background-color:lightgray;}
+.outer > * {
+  display:inline-block;
+  vertical-align:middle;
+  background-color:lightgreen;
+}
+
+.one {width:80px; height:80px;}
+.two {width:80px; height:80px;}
+.three {width:80px; height:100px;}
+
+.board-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+ /* table,th,td {
+    border: 1px solid;
+  }
+  th, td {
+    padding: 10px;
+  }
+  table {
+    text-align: center;
+  }
+  .slad{
+    background-color: green;
+  }
+  .smark{
+    background-color:red;
+  }
+  .pone{
+    background-color: yellow;
+  }
+  .ptwo{
+    background-color: lightpink;
+  }*/

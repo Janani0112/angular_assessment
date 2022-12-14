@@ -15,7 +15,6 @@ export class AppComponent implements OnInit{
   mess3:number=0;
   board(){
     let num=100;
-        // creating two dimensional array
         for (let i = 0; i< 10; i++) {
             for(let j = 0; j< 10; j++) {
                 this.arr[i] = [];

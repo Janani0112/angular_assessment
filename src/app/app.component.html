@@ -1,4 +1,7 @@
 <h2>Snake and Ladder Game</h2>
+
+
+
 <div class="container d-flex justify-content-center">
   <div class="align-player">
     <app-player1 (childevent)="mess=$event" (childevent1)="mess1=$event"></app-player1>
@@ -15,3 +18,30 @@
   </div>
 </div>
 
+
+<!--
+
+<div class="player1-container">
+  <app-player1 (childevent)="mess=$event" (childevent1)="mess1=$event">
+  </app-player1>
+</div>
+<div class="table-container">
+  <div class="board-container">
+    <table class="table">
+        <tr *ngFor="let row of arr">
+            <td *ngFor="let data of row" [class.blu]="laddercheck(data)" [class.redr]="snackcheck(data)" [class.arrcom]="trackp1(data)" [class.arrcom1]="trackp2(data)">
+                 <div>{{data}}</div>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>
+<div class="player2-container">
+  <app-player2 (childevent2)="mess2=$event" (childevent3)="mess3=$event">
+  </app-player2>
+</div>
+
+
+
+
+-->

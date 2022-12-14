@@ -1,6 +1,6 @@
 
 
-<h6>Points of Player 2 : {{counter}}</h6>
-<h6>Dice Value : {{cran}}</h6>
+<h4>Player 2 Points : {{counter}}</h4>
+<h4>Dice Value : {{cran}}</h4>
 <h3>{{message_show}}</h3>
-<button class="color_val" (click)="onPlay()">click</button>
+<button class="color_val" [disabled]="isStop()" (click)="onPlay()">Roll Dice</button>
